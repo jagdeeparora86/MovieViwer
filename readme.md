@@ -16,10 +16,6 @@ Completed user stories:
  * [x] Optional: Add a search bar.
  * [x] Optional: All images fade in as they are loading.
  
-Notes:
-
-Spent some time making the UI work across multiple phone resolutions by playing around with the RelativeLayout.
-
 Walkthrough of all user stories:
 
 <img src="https://github.com/jagdeeparora86/MovieViwer/raw/master/readme.gif" title="Video Walkthrough" width="" alt="Video Walkthrough" style="max-width:100%;">
