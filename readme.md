@@ -22,6 +22,6 @@ Spent some time making the UI work across multiple phone resolutions by playing 
 
 Walkthrough of all user stories:
 
-<img src="https://github.com/jagdeeparora86/MovieViwer/raw/master/Gratti.gif" title="Video Walkthrough" width="" alt="Video Walkthrough" style="max-width:100%;">
+<img src="https://github.com/jagdeeparora86/MovieViwer/raw/master/readme.gif" title="Video Walkthrough" width="" alt="Video Walkthrough" style="max-width:100%;">
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
