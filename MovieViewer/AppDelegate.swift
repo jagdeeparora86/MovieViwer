@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         nowPlayingViewController.endpoint = "now_playing"
         nowPlayingNavigationController.tabBarItem.title = "Now playing"
         
-        nowPlayingViewController.tabBarItem.image = UIImage(named: "now_playing")
+//        nowPlayingViewController.tabBarItem.image = UIImage(named: "now_playing")
     
         
         let topRatedNavigationController = storyBoard.instantiateViewController(withIdentifier: "MoviesNavigationController") as! UINavigationController

@@ -167,13 +167,15 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
                     }
                     if(!self.networkErrorView.isHidden){
                         self.networkErrorView.isHidden = true
+                        self.movieSearchBar.isHidden = false
                     }
                 }
             }
             else {
                 MBProgressHUD.hide(for: self.view, animated: true)
                 self.refreshControl.endRefreshing()
-                self.networkErrorView.frame = CGRect(x: 0, y: -25, width: self.networkErrorView.frame.width, height: self.networkErrorView.frame.height)
+                self.networkErrorView.frame = CGRect(x: 0, y: 0, width: self.networkErrorView.frame.width, height: self.networkErrorView.frame.height)
+                self.movieSearchBar.isHidden = true
                 self.networkErrorView.isHidden = false
             }
         });
